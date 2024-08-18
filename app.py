@@ -3,6 +3,7 @@ import sqlite3
 
 app = Flask(__name__)
 
+
 # Function to get the list of books from the database
 def get_books():
     conn = sqlite3.connect('library.db')
